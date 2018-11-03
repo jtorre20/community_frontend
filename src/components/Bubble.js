@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactBubbleChart from 'react-bubble-chart';
 import BubbleChart from '@weknow/react-bubble-chart-d3';
-const railsMood = 'http://localhost:3000/moodentry'
+const railsMood = 'http://https://secure-taiga-49628.herokuapp.com/moodentry'
 
 
 
