@@ -16,15 +16,10 @@ import * as d3 from "d3"
 // import ParallaxComponent from 'react-parallax-component';
 // import Parallax from 'react-springy-parallax'
 import './App.css';
-
-const baseUrl = 'https://secure-taiga-49628.herokuapp.com/'
 // const aylienEndpoint = 'https://api.aylien.com/api/v1/sentiment'
-// const railsRest = 'http://localhost:3000/moods'
-const railsRest = 'https://secure-taiga-49628.herokuapp.com/moods'
-// const railsText = 'http://localhost:3000/texts'
-const railsText = 'https://secure-taiga-49628.herokuapp.com/texts'
-// const railsMood = 'http://localhost:3000/moodentry'
-const railsMood = 'https://secure-taiga-49628.herokuapp.com/moodentry'
+const railsRest = 'http://localhost:3000/moods'
+const railsText = 'http://localhost:3000/texts'
+const railsMood = 'http://localhost:3000/moodentry'
 
 
 class App extends Component {
