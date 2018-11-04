@@ -3,7 +3,8 @@ import {Redirect} from 'react-router-dom'
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import Button from '@material-ui/core/Button';
-const userEndPoint = "http://https://secure-taiga-49628.herokuapp.com/users/username"
+// const userEndPoint = "http://localhost:3000/users/username"
+const userEndPoint = "https://secure-taiga-49628.herokuapp.com/users/"
 
 class Login extends React.Component{
   constructor(props) {

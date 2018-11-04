@@ -3,7 +3,8 @@ import React from 'react'
 // import InputLabel from '@material-ui/core/InputLabel';
 import {Redirect} from 'react-router-dom'
 // import Button from '@material-ui/core/Button';
-const signUpEndPoint = 'http://https://secure-taiga-49628.herokuapp.com/users'
+// const signUpEndPoint = 'http://localhost:3000/users'
+const signUpEndPoint = 'https://secure-taiga-49628.herokuapp.com/users'
 
 class SignupForm extends React.Component{
 

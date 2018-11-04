@@ -18,11 +18,11 @@ import * as d3 from "d3"
 import './App.css';
 // const aylienEndpoint = 'https://api.aylien.com/api/v1/sentiment'
 const railsRest = 'http://https://secure-taiga-t49628.herokuapp.com/moods'
-// const railsRest = 'https://secure-taiga-49628.herokuapp.com/moods'
+// const railsRest = 'https://localhost:3000/moods'
 const railsText = 'http://https://secure-taiga-49628.herokuapp.com/texts'
-// const railsText = 'https://secure-taiga-49628.herokuapp.com/texts'
+// const railsText = 'https://localhost:3000/texts'
 const railsMood = 'http://https://secure-taiga-49628.herokuapp.com/moodentry'
-// const railsMood = 'https://secure-taiga-49628.herokuapp.com/moodentry'
+// const railsMood = 'https://localhost:3000/moodentry'
 
 
 class App extends Component {
@@ -169,7 +169,7 @@ class App extends Component {
         < Menu loggedIn={this.state.loggedIn} />
         <Switch>
           < Route exact path="/" component={Home} />
-          < Route path="/signup" render={() => < Signup loggingIn={this.loggingIn} /> }/>
+          < Route path="/signup" render={() => < Signup loggingIn={this.signup} /> }/>
           < Route path="/login" render={() => < Login loggingIn={this.loggingIn} /> }/>
           < Route path="/moodpage" render={() => <div>
         
